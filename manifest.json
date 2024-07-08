@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+
+    "name": "DExtension",
+    "version": "0.0.0",
+    "description": "Een nutteloze extensie",
+
+
+    "permissions": [
+      "activeTab"
+    ],
+
+    "background": {
+      "service_worker": "background.js"
+    },
+
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
